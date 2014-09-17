@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSDLoveGenerator.h"
 
 @interface NSSpainDemoTests : XCTestCase
 
@@ -26,9 +27,16 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testInit
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSDLoveGenerator *generator = [NSDLoveGenerator generatorWithRepetitionCount:5];
+    XCTAssertTrue([generator isKindOfClass:NSDLoveGenerator.class]);
+}
+
+- (void)testCount
+{
+    NSDLoveGenerator *generator = [[NSDLoveGenerator alloc] initWithLoveCount:5];
+    XCTAssertEqual([[generator giveMeSomeLove] length], 20);
 }
 
 @end

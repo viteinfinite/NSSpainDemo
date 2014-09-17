@@ -7,6 +7,7 @@
 //
 
 #import "NSDViewController.h"
+#import "NSDLoveGenerator.h"
 
 @interface NSDViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    NSDLoveGenerator *generator = [[NSDLoveGenerator alloc] initWithLoveCount:5];
+    self.loveLabel.text = [generator giveMeSomeLove];
 }
 
 - (void)didReceiveMemoryWarning

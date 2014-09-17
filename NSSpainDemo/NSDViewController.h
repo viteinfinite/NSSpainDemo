@@ -10,4 +10,6 @@
 
 @interface NSDViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UILabel *loveLabel;
+
 @end

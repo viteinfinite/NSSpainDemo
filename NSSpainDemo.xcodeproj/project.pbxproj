@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EE440520CE981A6FBDE7374 /* NSDLoveGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE440D44D748296281ABD47 /* NSDLoveGenerator.m */; };
 		4246EB1419C99DFB00106B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4246EB1319C99DFB00106B59 /* Foundation.framework */; };
 		4246EB1619C99DFB00106B59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4246EB1519C99DFB00106B59 /* CoreGraphics.framework */; };
 		4246EB1819C99DFB00106B59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4246EB1719C99DFB00106B59 /* UIKit.framework */; };
@@ -20,7 +21,7 @@
 		4246EB3419C99DFB00106B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4246EB1319C99DFB00106B59 /* Foundation.framework */; };
 		4246EB3519C99DFB00106B59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4246EB1719C99DFB00106B59 /* UIKit.framework */; };
 		4246EB3D19C99DFB00106B59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4246EB3B19C99DFB00106B59 /* InfoPlist.strings */; };
-		4246EB3F19C99DFB00106B59 /* NSSpainDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4246EB3E19C99DFB00106B59 /* NSSpainDemoTests.m */; };
+		4246EB3F19C99DFB00106B59 /* NSDLoveGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4246EB3E19C99DFB00106B59 /* NSDLoveGeneratorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EE440D44D748296281ABD47 /* NSDLoveGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDLoveGenerator.m; sourceTree = "<group>"; };
+		2EE44B18E577695070A9395A /* NSDLoveGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDLoveGenerator.h; sourceTree = "<group>"; };
 		4246EB1019C99DFB00106B59 /* NSSpainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSSpainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4246EB1319C99DFB00106B59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4246EB1519C99DFB00106B59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +55,7 @@
 		4246EB3219C99DFB00106B59 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4246EB3A19C99DFB00106B59 /* NSSpainDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSSpainDemoTests-Info.plist"; sourceTree = "<group>"; };
 		4246EB3C19C99DFB00106B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4246EB3E19C99DFB00106B59 /* NSSpainDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSpainDemoTests.m; sourceTree = "<group>"; };
+		4246EB3E19C99DFB00106B59 /* NSDLoveGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDLoveGeneratorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EE44789DFFA019FB529AFE3 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2EE440D44D748296281ABD47 /* NSDLoveGenerator.m */,
+				2EE44B18E577695070A9395A /* NSDLoveGenerator.h */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		4246EB0719C99DFB00106B59 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +131,7 @@
 				4246EB2919C99DFB00106B59 /* NSDViewController.m */,
 				4246EB2B19C99DFB00106B59 /* Images.xcassets */,
 				4246EB1A19C99DFB00106B59 /* Supporting Files */,
+				2EE44789DFFA019FB529AFE3 /* Logic */,
 			);
 			path = NSSpainDemo;
 			sourceTree = "<group>";
@@ -137,7 +150,7 @@
 		4246EB3819C99DFB00106B59 /* NSSpainDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				4246EB3E19C99DFB00106B59 /* NSSpainDemoTests.m */,
+				4246EB3E19C99DFB00106B59 /* NSDLoveGeneratorTests.m */,
 				4246EB3919C99DFB00106B59 /* Supporting Files */,
 			);
 			path = NSSpainDemoTests;
@@ -253,6 +266,7 @@
 				4246EB2419C99DFB00106B59 /* NSDAppDelegate.m in Sources */,
 				4246EB2019C99DFB00106B59 /* main.m in Sources */,
 				4246EB2A19C99DFB00106B59 /* NSDViewController.m in Sources */,
+				2EE440520CE981A6FBDE7374 /* NSDLoveGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4246EB3F19C99DFB00106B59 /* NSSpainDemoTests.m in Sources */,
+				4246EB3F19C99DFB00106B59 /* NSDLoveGeneratorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +391,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSSpainDemo/NSSpainDemo-Prefix.pch";
 				INFOPLIST_FILE = "NSSpainDemo/NSSpainDemo-Info.plist";
@@ -390,6 +406,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSSpainDemo/NSSpainDemo-Prefix.pch";
 				INFOPLIST_FILE = "NSSpainDemo/NSSpainDemo-Info.plist";
@@ -407,6 +425,8 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSSpainDemo/NSSpainDemo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -429,6 +449,8 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSSpainDemo/NSSpainDemo-Prefix.pch";
 				INFOPLIST_FILE = "NSSpainDemoTests/NSSpainDemoTests-Info.plist";
@@ -457,6 +479,7 @@
 				4246EB4419C99DFB00106B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4246EB4519C99DFB00106B59 /* Build configuration list for PBXNativeTarget "NSSpainDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +488,7 @@
 				4246EB4719C99DFB00106B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
